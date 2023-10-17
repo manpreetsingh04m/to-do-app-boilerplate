@@ -49,7 +49,7 @@ function display() {
     var listItem = `<li id="item${i}">
       <div>${curr}</div>
       <div>
-        <span onclick="deleteItem(${i}">&times;</span>
+        <span onclick="deleteItem(${i})">&times;</span>
         <span>|</span>
         <span onclick="editItem(${i})">Edit</span>
       </div>
